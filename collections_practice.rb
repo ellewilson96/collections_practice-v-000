@@ -33,4 +33,5 @@ end
 
 def swap_elements_from_to(array, x, y)
   array[x], array[y] = array[y], array[x]
+  array
 end
