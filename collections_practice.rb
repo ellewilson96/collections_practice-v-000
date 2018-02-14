@@ -60,8 +60,9 @@ def sum_array (array)
 end
 
 def add_s(array)
+  new_array = []
   array.each do |body|
-    body + "s"
-    array
+  new_array << body + "s"
+    new_array
   end
 end
