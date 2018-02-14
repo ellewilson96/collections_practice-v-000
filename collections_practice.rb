@@ -56,3 +56,4 @@ def find_a(array)
       new_array.drop
   end
 end
+end
