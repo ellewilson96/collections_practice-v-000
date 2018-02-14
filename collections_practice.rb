@@ -27,3 +27,4 @@ def sort_array_char_count(array)
     array.sort do |v.length|
     end
   end
+end
