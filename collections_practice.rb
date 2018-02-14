@@ -49,7 +49,7 @@ end
 
 def find_a(array)
   new_array = []
-  array.each do |element|
+  array.collect do |element|
     if element[0] = "a"
       new_array << element
     elsif element[0] != "a"
