@@ -49,7 +49,7 @@ end
 
 def find_a(array)
     array.collect do |fruit|
-    fruit.keep_if index[0] == "a"
+    fruit.keep_if fruit[0] == "a"
     array
 end
 end
