@@ -23,8 +23,6 @@ end
 end
 
 def sort_array_char_count(array)
-  array.each do |v|
-    array.sort do |v.length|
-    end
+  array.sort do |each.length|
   end
 end
