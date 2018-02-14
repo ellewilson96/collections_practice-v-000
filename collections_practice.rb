@@ -51,4 +51,5 @@ def find_a(array)
   array.collect do |element|
     array.keep_if element[0] == "a"
 end
+array
 end
