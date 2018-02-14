@@ -21,3 +21,9 @@ def sort_array_desc(array)
     end
 end
 end
+
+def sort_array_char_count(array)
+  array.each do |v|
+    array.sort do |v.length|
+    end
+  end
