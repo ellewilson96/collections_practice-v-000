@@ -49,7 +49,7 @@ end
 
 def find_a(array)
     array.collect do |fruit|
-    fruit.select! {fruit[0] == "a"}
+    array.select!{fruit[0] == "a"}
     array
 end
 end
