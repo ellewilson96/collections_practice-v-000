@@ -45,3 +45,4 @@ def kesha_maker(array)
   v[3] == "$"
   array
 end
+end
