@@ -62,7 +62,7 @@ end
 def add_s(array)
   new_array = []
   array.each do |body|
-  new_array << "#{body} + "s"
+  new_array << "#{body} + "s""
     new_array
   end
 end
