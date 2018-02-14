@@ -51,4 +51,8 @@ def find_a (array)
   array.select do |word|
     word.chr == "a"
   end
-end 
+end
+
+def sum_array(array)
+  array.sum
+end
