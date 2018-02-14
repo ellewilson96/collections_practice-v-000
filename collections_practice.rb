@@ -23,6 +23,13 @@ end
 end
 
 def sort_array_char_count(array)
-  array.sort do |each.length|
-  end
+  array.sort do |a.length, b.length|
+    if a == b
+      0
+    elsif a < b
+      -1
+    elsif a > b
+      1
+    end
+end
 end
