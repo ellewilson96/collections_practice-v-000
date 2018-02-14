@@ -48,7 +48,7 @@ end
 end
 
 def find_a(array)
-  array.collect do |element|
+  array.each do |element|
     array.keep_if {element[0] = "a"}
   end
 end
