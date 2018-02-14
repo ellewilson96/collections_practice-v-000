@@ -50,6 +50,5 @@ end
 def find_a(array)
   array.collect do |element|
     element.select {element[0] = "a"}
-    array
   end
 end
