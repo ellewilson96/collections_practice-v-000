@@ -10,7 +10,7 @@ def sort_array_asc(array)
 end
 end
 
-def sort_array_asc(array)
+def sort_array_desc(array)
   array.sort do |b, a|
     if a == b
       0
