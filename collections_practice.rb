@@ -52,3 +52,4 @@ def find_a(array)
     fruit.keep_if index[0] == "a"
     array
 end
+end
