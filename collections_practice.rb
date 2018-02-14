@@ -46,3 +46,8 @@ def kesha_maker(array)
     element
 end
 end
+
+def find_a(array)
+  array.keep_if element[0] = "a"
+  array
+end
