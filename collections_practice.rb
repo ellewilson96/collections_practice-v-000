@@ -50,10 +50,6 @@ end
 def find_a(array)
   new_array = []
   array.collect do |element|
-    if element[0] = "a"
-      new_array << element
-    elsif element[0] != "a"
-      new_array.drop
-  end
+    array.keep_if element[0] == "a"
 end
 end
