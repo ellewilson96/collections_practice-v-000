@@ -59,10 +59,12 @@ def sum_array (array)
   end
 end
 
-def add_s(array)
-  new_array = []
-  array.each do |body|
-  new_array << "#{body} + "s""
-    new_array
+def add_s (array)
+  array.collect.with_index do |word, index|
+    if index == 1
+      word 
+    else
+      word + "s"
+    end
   end
 end
