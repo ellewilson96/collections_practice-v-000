@@ -48,7 +48,6 @@ end
 end
 
 def find_a(array)
-  new_array = []
   array.collect do |element|
     array.keep_if element[0] == "a"
 end
