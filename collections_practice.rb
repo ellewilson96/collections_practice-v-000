@@ -48,5 +48,7 @@ end
 end
 
 def find_a(array)
-    array.keep_if index[0] == "a"
+    array.collect do |fruit|
+    fruit.keep_if index[0] == "a"
+    array
 end
